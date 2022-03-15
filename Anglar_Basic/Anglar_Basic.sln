@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_Basic", "Angular_Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularMVC", "AngularMVC\AngularMVC.csproj", "{68395F04-2470-4B93-A1EC-395121724D5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularWithMVC", "AngularWithMVC\AngularWithMVC.csproj", "{C8D438B3-D4A6-4D2E-B478-40C82592AA4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68395F04-2470-4B93-A1EC-395121724D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68395F04-2470-4B93-A1EC-395121724D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68395F04-2470-4B93-A1EC-395121724D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D438B3-D4A6-4D2E-B478-40C82592AA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D438B3-D4A6-4D2E-B478-40C82592AA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D438B3-D4A6-4D2E-B478-40C82592AA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D438B3-D4A6-4D2E-B478-40C82592AA4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

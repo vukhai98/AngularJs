@@ -8,7 +8,7 @@
         .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
             $locationProvider.hashPrefix('');
 
-            $routeProvider 
+            $routeProvider
                 .when('/', {
                     controller: 'userCtrl',
                     templateUrl: '/app/templates/user.html'
