@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td>Name</td>
+            <td>Date of birth</td>
+            <td>Salary</td>
+            <td>Gender</td>
+            <td>Status</td>
+
+        </tr>
+        <tr ng-repeat="employee in employees">
+            <td>{{employee.name | uppercase}}</td>
+            <td>{{employee.birthDate|date:"dd/MM/yyyy"}}</td>
+            <td>{{employee.salary| currency:""}}</td>
+            <td>{{employee.gender| lowercase}}</td>
+            <td>{{employee.status| status}}</td>
+        </tr>
+    </table>
+</body>
+</html>
